@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>tinylog-demo-plugin</artifactId>
-	<packaging>eclipse-plugin</packaging>
+	<artifactId>target-platform</artifactId>
+	<packaging>eclipse-target-definition</packaging>
 
 	<parent>
 		<groupId>org.tinylog</groupId>
@@ -13,27 +13,12 @@
 	</parent>
 
 	<build>
-		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-maven-plugin</artifactId>
 				<version>1.7.0</version>
 				<extensions>true</extensions>
-			</plugin>
-			<plugin>
-				<groupId>org.eclipse.tycho</groupId>
-				<artifactId>target-platform-configuration</artifactId>
-				<version>1.7.0</version>
-				<configuration>
-					<target>
-						<artifact>
-							<groupId>org.tinylog</groupId>
-							<artifactId>target-platform</artifactId>
-							<version>0.0.1-SNAPSHOT</version>
-						</artifact>
-					</target>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
