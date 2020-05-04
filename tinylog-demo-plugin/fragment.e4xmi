@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_hBmYAI4nEeqyedvtFyceuQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_oiJYUI4nEeqyedvtFyceuQ" featurename="commands" parentElementId="xpath:/">
+    <elements xsi:type="commands:Command" xmi:id="_t7cYQI4nEeqyedvtFyceuQ" elementId="tinylog-demo-plugin.command.demo" commandName="Demo Command"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_zKsEUI4nEeqyedvtFyceuQ" featurename="handlers" parentElementId="xpath:/">
+    <elements xsi:type="commands:Handler" xmi:id="_0sRL0I4nEeqyedvtFyceuQ" elementId="tinylog-demo-plugin.handler.demo" contributionURI="bundleclass://tinylog-demo-plugin/com.example.tinylog.DemoHandler" command="_t7cYQI4nEeqyedvtFyceuQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_5hLFQI4nEeqyedvtFyceuQ" featurename="menuContributions" parentElementId="xpath:/">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_7VDdsI4nEeqyedvtFyceuQ" elementId="tinylog-demo-plugin.menucontribution.demo" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_CvGNYI4oEeqyedvtFyceuQ" elementId="tinylog-demo-plugin.item.demo" label="Demo Command" command="_t7cYQI4nEeqyedvtFyceuQ"/>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
