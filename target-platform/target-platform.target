@@ -8,5 +8,9 @@
 			<unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.equinox.p2.sdk.feature.group" version="0.0.0"/>
 		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="http://tinylog.org/p2-repository/1.3.6"/>
+			<unit id="org.pmw.tinylog" version="0.0.0"/>
+		</location>
 	</locations>
 </target>
