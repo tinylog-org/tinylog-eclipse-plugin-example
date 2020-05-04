@@ -2,7 +2,7 @@ package com.example.tinylog;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
-import org.pmw.tinylog.Logger;
+import org.tinylog.Logger;
 
 /**
  * The activator class controls the plug-in life cycle
