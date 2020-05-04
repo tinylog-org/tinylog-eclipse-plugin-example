@@ -17,6 +17,7 @@
 	<modules>
 		<module>target-platform</module>
 		<module>org.tinylog.demo.plugin</module>
+		<module>org.tinylog.demo.feature</module>
 	</modules>
 
 </project>
