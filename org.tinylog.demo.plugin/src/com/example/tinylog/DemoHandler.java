@@ -8,7 +8,7 @@ public class DemoHandler {
 	
 	@Execute
 	public void execute(Shell shell) {
-		Logger.info("Command triggered");
+		Logger.info("Command triggered"); //$NON-NLS-1$
 	}
 	
 }
